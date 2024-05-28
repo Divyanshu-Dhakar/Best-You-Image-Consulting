@@ -118,11 +118,15 @@ body {
   background-attachment: fixed;
 }
 @media screen and (max-width: 600px) {
+  
+.iconGroup > .details > span{
+  font-size: 8px;
+}
   .nav__menu__btn{
     visibility: hidden;
   }
 .logo img{
-  margin-left: 5rem;
+  margin-left: 6rem;
 }
   .content{
     padding: 1rem;
@@ -246,7 +250,8 @@ nav {
   gap: 1rem;
 }
 
-.input__group span {
+.input__group 
+ {
   font-size: 1.75rem;
   color: var(--primary-color);
 }
@@ -583,12 +588,7 @@ nav {
   body{
     padding: 0 1rem;
    }
-   .iconGroup .details span{
-    display: block;
-    color: #181818;
-    font-size: 13px;
-    word-wrap: break-word;
-  }
+
   nav {
     padding: 2rem 1rem;
     position: static;
@@ -745,7 +745,7 @@ section.left .contactInfo{
 .iconGroup .details span{
 	display: block;
 	color: #181818;
-	font-size: 16px;
+	font-size: 14px;
 }
 .iconGroup .details span:nth-child(1){
 	text-transform: uppercase;
